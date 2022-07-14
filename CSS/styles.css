@@ -59,6 +59,7 @@ width: 100%;
     color:darkblue;
     background-color: beige;
     padding: 10px 10px;
+    border-radius: 210px;
     
 
     
@@ -80,6 +81,7 @@ width: 100%;
     color: beige;
     padding: 10px 10px;
     background-color : darkblue;
+    border-radius: 210px;
     
 
 }
@@ -90,6 +92,7 @@ width: 100%;
     padding: 9.5px 10; 
     color: beige;  
     transition: ease-in-out 1s;
+    border-radius: 210px;
     
     
 
@@ -393,20 +396,25 @@ a.linktop {
     padding: 10px 10px;
     text-decoration: none;
     display: block;
+    border-radius: 210px;
   }
 
 .dropdown-content a:hover {
     background-color: #ddd;
+  
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
     transition: ease-in-out 1s;
+    border-radius: 210px;
+    
 }
 
 .dropdown:hover .dropbtn {
     background-color: darkblue;
     color: beige;
+    border-radius: 210px;
 }
 
 .dropbtn {
@@ -420,6 +428,7 @@ a.linktop {
     border: none;
     width: 80px;
     transition: ease-in-out 1s;
+    border-radius: 210px;
     
 }
 
@@ -477,17 +486,33 @@ a {
 
 .form-horizontal {
 
-   margin-left: 40%;
+margin-left: 40%;
+box-sizing: border-box;
+ 
 
 }
 
 .want{
 
     width: 400px;
-    margin: 50px;
+    margin: 0% 40% ;
+    padding: 50px 0px;
     
 }
 
+.contact {
+  
+    background-image: url(./image/Contact-us-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.contacttxt {
+
+    margin-left: 40%;
+    padding-top: 30px;
+}
 
 
 
